@@ -1,0 +1,135 @@
+body{
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+form{
+    margin: 0 auto;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+    align-content: center;
+}
+
+li a{
+   text-decoration: none;
+   color: white;
+   size: 25px;
+}
+
+a,h2,h3,p{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    size: 20px 0px;
+    color: rgb(158, 216, 192);
+ }
+
+ul{
+background: rgb(57, 78, 78,0.5);
+padding: 50px 0 ;
+margin-top: 0;
+
+}
+
+
+
+#hombre:hover{
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #2f40d6; 
+ }
+
+ #mujer:hover{
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #e6229b; 
+ }
+
+ .btn{
+     border-radius: 0.3rem;
+     cursor: pointer;
+     background:rgb(57, 78, 78,0.5);
+     color: white;
+     width: 100px;
+     margin-right: 40px;
+
+ }
+
+ .btn:hover{
+    border-radius: 0.3rem;
+    cursor: pointer;
+    background:rgb(253, 255, 254);
+    color:black;
+
+}
+
+.input:focus {
+    
+    margin: 5px auto;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #030303; 
+  }
+  .btnsend{
+    transition-delay: 10s
+  }
+  .introducing{
+      padding: 0 100px;
+      width: 30vw;
+  }
+
+  img{
+      display: block;
+      float:left ;
+      margin-right: 2px;
+     
+  }
+
+nav-link .active{
+    color: rgb(158, 216, 192);
+    font-weight: bolder;
+    
+}
+
+/*Modal Windows*/
+.modal-contenido{
+    
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+  }
+  .modal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    margin: 0 auto;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+  #miModal:target{
+    opacity:1;
+    pointer-events:auto;
+   
+  }
+
+  .icono{
+    width: 20px;
+    display: inline-block;
+    margin: auto;
+  }
+
+  .barras{
+      width: 20%;
+  }
