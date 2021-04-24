@@ -21,3 +21,6 @@ function btndelete(){
     
       swal("Bienvenid@! porfavor llena el formulario.");
         }
+
+
+   

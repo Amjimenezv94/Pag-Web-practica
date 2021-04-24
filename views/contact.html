@@ -12,7 +12,8 @@
 
     <title>contact us </title>
 
-   <script src="../js/sweetAlert.js"></script>
+   <!--<script src="../js/sweetAlert.js"></script> -->
+   <script src="../js/main.js"></script>
 </head>
 
 <body onload="start()">
@@ -46,15 +47,16 @@
 
     </header>
     <center>
-        <form action="ejemplo.php" method="post">
-            <table>
+        <form id="form" action="" method="">
+           
+            <table width=800px>
                 <tr>
                     <td>
                         <label>ID identification:<span style="color: red;">*</span></label>
                     </td>
                     <td>
                         <input class="input" type="text" name="name" size="40" style="width: 80%;"
-                            placeholder="type your id identification" rquired autofocus>
+                            placeholder="type your id identification" required autofocus>
                     </td>
                 </tr>
 
@@ -72,7 +74,7 @@
                         <label>@-Email:<span style="color: red;">*</span></label>
                     </td>
                     <td>
-                        <input class="input" type="email" name="lastname" size="40" style="width: 80%;"
+                        <input class="input" type="email" name="email" size="40" style="width: 80%;"
                             placeholder="type your email" required>
                     </td>
                 </tr>
@@ -81,7 +83,7 @@
                         <label for="">Mobile:<span style="color: red;">*</span></label>
                     </td>
                     <td>
-                        <input class="input" type="text" name="position" style="width: 80%;" placeholder="Mobile number"
+                        <input class="input" type="number" name="position" style="width: 80%;" placeholder="Mobile number"
                             required>
                     </td>
 
@@ -102,7 +104,7 @@
                         <label for="">Field/Operation:<span style="color: red;">*</span></label>
                     </td>
                     <td>
-                        <input class="input" type="text" name="position" style="width: 80%;"
+                        <input class="input" type="text" name="operation" style="width: 80%;"
                             placeholder="type your Field/Operation" required>
                     </td>
 
@@ -113,7 +115,7 @@
                     </td>
                     <td>
 
-                        <select name="cars" id="contactToYou" style="width: 82%;">
+                        <select name="where" id="contactToYou" style="width: 81%;">
                             <option value="Home">Home</option>
                             <option value="Office">Office</option>
                             <option value="Cellphone">My cellphone</option>
@@ -130,7 +132,7 @@
                     </td>
                     <td>
 
-                        <select name="schedule" id="schedule" style="width: 82%;">
+                        <select name="schedule" id="schedule" style="width: 81%;">
                             <option value="Home">Morning</option>
                             <option value="Office">noon</option>
                             <option value="Cellphone">afternoon</option>
@@ -150,22 +152,22 @@
                 <p>
 
                     <input onclick="btndelete()" type="reset" id="delete" class="btn" Value="Delete" />
-                    <input onclick="btnsend()" type="submit" id="send" class="btn" value="Send" />
-
+                   <!--<input onclick="btnsend()" type="submit" id="send" class="btn" value="Send" />--> 
+                    <button type="submit" name="send">Send</button>
                 </p>
 
             </center>
 
 
         </form>
+        <a href="mailto:amjimenezv@gmail.com" id="formulario">Envio formulario</a>
+
+        
     </center>
 
     <br>
     <br>
     <br>
-
-
-
 
 
 

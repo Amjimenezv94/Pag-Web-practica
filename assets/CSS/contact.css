@@ -73,8 +73,8 @@ margin-top: 0;
 .input:focus {
     
     margin: 5px auto;
-    border: 1px solid #ccc;
-    box-shadow: 5px 5px 5px #030303; 
+    
+    box-shadow: 5px 5px 5px #1c1d1b; 
   }
   .btnsend{
     transition-delay: 10s
@@ -122,3 +122,27 @@ nav-link .active{
     pointer-events:auto;
    
   }
+
+
+  #formulario{
+   opacity: 0;
+  }
+ 
+
+  input:focus:invalid{
+      box-shadow:2px 2px 2px 1px red;
+      background-image: url(../img/error-img.gif) ;
+      background-size: 4%;
+      background-repeat: no-repeat;
+      background-position: right;
+      
+  }
+
+  input:focus:valid{
+    box-shadow:2px 2px 2px 1px rgb(5, 247, 98);
+    background-image: url(../img/ok.gif) ;
+    background-size: 4%;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}

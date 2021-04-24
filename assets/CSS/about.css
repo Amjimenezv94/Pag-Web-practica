@@ -122,6 +122,7 @@ nav-link .active{
   #miModal:target{
     opacity:1;
     pointer-events:auto;
+    
   }
 
   #mision{
@@ -132,6 +133,7 @@ nav-link .active{
       float: left;
       margin:  0 2% 0 5%;
       padding: 10px;
+      overflow:hidden;
       
   }
   
@@ -143,6 +145,7 @@ nav-link .active{
     height: 250px;
     margin: 0 2%;
     padding: 10px;
+    overflow:hidden;
     
   }
   
@@ -154,6 +157,7 @@ nav-link .active{
     float: right;
     margin: 0 5% 0 2%;
     padding: 10px;
+    overflow:hidden;
 }
 
 .barras{
