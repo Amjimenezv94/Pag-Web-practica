@@ -146,3 +146,27 @@ nav-link .active{
     background-position: right;
     
 }
+
+span{
+    width: 6%;
+}
+
+input:focus:invalid + span:after{
+    content:"❌";
+    color: red;
+    position: relative;
+    left: 2%;
+    width: 4%;
+    size: 4%;
+}
+
+
+
+input:focus:valid + span:after{
+    content: "✔️";
+    color: rgb(0, 255, 0);
+    position: relative;
+    left: 2%;
+    width: 4%;
+    size: 4%;
+}
